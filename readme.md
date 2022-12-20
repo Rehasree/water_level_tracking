@@ -1,4 +1,4 @@
-# Deep Water
+# WATER LEVEL TRACKING IN ENDAGERED LAKES
 
 **AIM:** This project aims to track changes in water level using satellite imagery and deep learning.
 
@@ -8,7 +8,7 @@
 3. Labeling
 4. Data Augmentation
 5. Metrics
-6. Baseline
+6. U-Net architecture
 7. Model Optimization
 8. Model Results
 9. Dashboard
@@ -26,7 +26,7 @@ The exponenetial growth of satellite-based information over the past four decade
 
 ## Datasets
 
-[NWPU-Resic-45](https://www.tensorflow.org/datasets/catalog/resisc45) dataset is a pubicly available benchmark for Remote Sensing Image Scene Classification (RESIC), created by [Nortwestern Polytechnical University](https://en.nwpu.edu.cn/) (NWPU). This dataset contains 31,500 images, covering 45 scene classes (including water classes) with 700 images in each class.
+[NWPU-Resic-45](https://www.tensorflow.org/datasets/catalog/resisc45) is a publicly available data set.This dataset contains 31,500 images, covering 45 scene classes (including water classes) with 700 images in each class.
 
 The second dataset is a time-series of cloudless Sentinel-2 imagery including 17 criticaly endangered lakes as following:
 - [Lake Poopo](https://en.wikipedia.org/wiki/Lake_Poop%C3%B3), Bolivia;
