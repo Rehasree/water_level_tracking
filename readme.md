@@ -151,18 +151,6 @@ The dashboard can be executed with the following command:
 
 A demo is available [here](https://drive.google.com/file/d/1iATFNuEvBrYWUtnZvZTDVe_R_z8LpgAA/view?usp=sharing).
 
-**Use Case 1: Lake Copais, Greece (2019)**
-
-![Use Case 1: Lake Copais](./CODE/assets/documentation/use-case-lake-copais.png)
-
-**Use Case 2: Lake Di Cancano, Italy (2019)**
-
-![Use Case 2: Lake Di Cancano](./CODE/assets/documentation/use-case-lake-di-cancano.png)
-
-**Use Case 3: Lake Salda, Turkey (2016)**
-
-![Use Case 3: Lake Salda](./CODE/assets/documentation/use-case-lake-salda.png)
-
 ## Technical Stack
 
 The following libraries are required to create the virtual environment. The creation of the virtual environment is detailed in the next section.
