@@ -1,6 +1,6 @@
 # Deep Water
 
-AIM: This project aims to track changes in water level using satellite imagery and deep learning.
+**AIM:** This project aims to track changes in water level using satellite imagery and deep learning.
 
 **Table of Content:**
 1. Introduction
@@ -83,7 +83,7 @@ Train/Validation/Test splits based on Resic-45 dataset only:
 - validation set: 140 images;
 - test set: 71 images.
 
-Model performance:
+**Model performance:**
 
 ![Baseline results without image augmentation](./CODE/assets/documentation/baseline-no-augmentation.png)
 
@@ -148,7 +148,7 @@ The ensemble model is the one with highest accuracy (97.15%) and is the one used
 The dashboard can be executed with the following command:
 
 ```python app.py```
-
+![image](./CODE/assets/documentation/image.png)
 A demo is available [here](https://drive.google.com/file/d/1iATFNuEvBrYWUtnZvZTDVe_R_z8LpgAA/view?usp=sharing).
 
 ## Technical Stack
@@ -165,22 +165,6 @@ The following libraries are required to create the virtual environment. The crea
 - Rasterio
 - Requests
 - Tensorflow 2.4
-
-## Virtual Environement
-
-To setup your local environemnt it is recommended to create a virtual environment using condas. Make sure you have it installed on your computer and then execute the command below:
-
-```conda env create -f environment.yml```
-
-The `environment.yml` file ensures that all dependiences will be downloaded.
-
-After the enviroment is created, it is necessary to activate the virtual environemnt as follows:
-
-```conda activate deep-water```
-
-The virtual environment can be deactivate in a single line of code.
-
-```conda deactivate```
 
 ## Next Steps
 
