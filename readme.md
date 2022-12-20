@@ -72,9 +72,9 @@ The following metrics have been used to evaluate the semantic segmenation model:
 
 More information about both of these metrics can be found [here](https://towardsdatascience.com/metrics-to-evaluate-your-semantic-segmentation-model-6bcb99639aa2).
 
-## Baseline
+## U-Net architecture
 
-The baseline consists of a simple U-Net model architecture. This strategy allow us to modify the model for our own purposes and fine-tunning it as necessary for our development purposes. By using this network architecture, we could spend more time understanding the optimization strategies.
+We used a simple U-Net model architecture. This strategy allow us to modify the model for our own purposes and fine-tunning it as necessary for our development purposes. By using this network architecture, we could spend more time understanding the optimization strategies.
 
 ### Without Data Augmentation
 
