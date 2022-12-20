@@ -13,8 +13,6 @@
 8. Model Results
 9. Dashboard
 10. Technical Stack
-11. Virtual Environment
-12. Next Steps
 
 ## Introduction
 
